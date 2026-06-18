@@ -1,0 +1,23 @@
+baseURL = 'https://YoonSunWoo02.github.io/'
+languageCode = 'ko-kr'
+title = 'YoonSunWoo02 - Security Study Blog'
+theme = 'PaperMod'
+
+[params]
+  author = "YoonSunWoo02"
+  description = "SK Rookies 33기 보안 공부 기록"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
